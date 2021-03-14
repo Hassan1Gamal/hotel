@@ -1,0 +1,133 @@
+/* Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+a {
+    color : #333 ;
+    text-decoration: none;
+
+}
+h1 , h2 , h3 , h4 {
+ padding-bottom: 20px;
+}
+p {
+    margin: 10px 0px;
+}
+/* utility*/
+.container {
+    margin: auto;
+    max-width: 1100px;
+    padding: 0 20px;
+}
+.lead {
+    font-size: 20px;
+}
+.btn {
+    
+    background-color:#333;
+    width: 50px;
+    padding: 20px 30px;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.btn:hover {
+    background-color:#F7C08A ;
+    color: black;
+}
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+   
+}
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+/* navbar*/
+#navbar {
+    background-color: #333;
+    overflow: auto;
+    color: #fff;
+}
+ 
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+}
+#navbar ul {
+    float: right;
+list-style: none;
+}
+#navbar ul li {
+    float: left;
+
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background-color: #444;
+    color:#F7C08A ;
+   
+}
+    /*showcase*/
+#showcase {
+    background-image: url(../image/showcase.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+#showcase .showcase-content {
+ color: #fff;
+ text-align: center;
+ padding-top: 230px;
+ 
+}
+.showcase-content h1 {
+    font-size: 80px;
+    line-height: 1.2em;
+}
+.text-primary {
+    color: #F7C08A;
+}
+.showcase-content p {
+    font-size: 20px;
+    line-height: 1.7em;
+    padding-bottom: 40px;
+}
+/*home-info*/
+#home-info {
+    height: 400px;
+}
+#home-info .info-image {
+    float: left;
+    width: 50%;
+    background: url('../image/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+#home-info .info-content {
+    float: right;
+    width: 50% ;
+ min-height: 100%;
+ text-align: center;
+ padding: 50px 30px;
+ overflow: hidden;
+}
+#home-info .info-content p {
+    padding-bottom: 30px;
+}
